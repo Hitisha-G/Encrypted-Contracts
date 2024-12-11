@@ -27,7 +27,7 @@
 // //     await transaction.wait();
 
 // //     const tx2 = await this.contract.connect(this.signers.alice).decryptCounter({ gasLimit: 5_000_000 });
-// //       await tx2.wait();
+// //       await tx2.wait(); return addressMapping[roomId];
 // //       await awaitAllDecryptionResults();
 // //       const y = await this.contract._counter();
 // //       expect(y).to.equal(20); // 10 

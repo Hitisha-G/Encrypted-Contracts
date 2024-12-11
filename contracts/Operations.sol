@@ -12,5 +12,7 @@ contract Operations  {
         TFHE.allow(a,address(this));
     }
 
+    
+
 }
 

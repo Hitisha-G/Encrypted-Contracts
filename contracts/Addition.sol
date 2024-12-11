@@ -17,7 +17,7 @@ contract Addition is GatewayCaller {
     
     function setA(uint64 num) public  {
         a = TFHE.asEuint64(num);
-        TFHE.allow(a,address(this));
+        // TFHE.allow(a,address(this));
     }
 
     function addEN(uint64 num) public  {

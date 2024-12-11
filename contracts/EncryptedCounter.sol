@@ -26,6 +26,7 @@ contract EncryptedCounter is GatewayCaller {
         _counter = num;
         counter =  TFHE.asEuint64(num);
         TFHE.allow(counter, address(this));
+        // TFHE.reencrypt(counter);
     }
 
     function increment(uint64 num) public {

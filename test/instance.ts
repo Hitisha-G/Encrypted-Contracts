@@ -50,7 +50,7 @@ export const createInstances = async (accounts: Signers): Promise<FhevmInstances
 export const createInstance = async () => {
   const instance = await createFhevmInstance({
     networkUrl: network.config.url,
-    gatewayUrl: "http://localhost:7077",
+    gatewayUrl: "http://192.168.1.24:7077",
     aclAddress: aclAdd,
   });
   return instance;
